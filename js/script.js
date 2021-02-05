@@ -10,4 +10,7 @@ function drawTitle() {
     
     ctx.fillStyle = "#ffffff"
     ctx.fillText(text,10,35);
+
+    var titleSong = new Audio('audio/title.mp3')
+    titleSong.play();
 }
