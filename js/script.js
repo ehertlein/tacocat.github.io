@@ -1,7 +1,7 @@
 var canvas = document.getElementById('myCanvas');
 var ctx = canvas.getContext('2d');
 
-let url = '../images/fazboiTitle.jpg';
+let url = 'images/fazboiTitle.jpg';
 let img = new Image();
 img.onload = function () {
     ctx.drawImage(img, 0, 0);
