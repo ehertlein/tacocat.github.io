@@ -13,13 +13,18 @@
 </head>
 
 <body>
-    <div style="display:none;">
+    <div id="images" style="display:none;">
         <img id="title" src="images/fazboiTitle.jpg"/>
     </div>
 
     <canvas id="myCanvas" width="960" height="720"></canvas>
 
     <script src="js/script.js"></script>
-</body>
 
+    <script>
+        window.onload = function() {
+            drawTitle();
+        }
+    </script>
+</body>
 </html>
