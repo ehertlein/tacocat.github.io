@@ -3,7 +3,7 @@ function drawTitle() {
     var ctx = canvas.getContext('2d');
     
     const image = document.getElementById('title');
-    ctx.drawImage(image, 280, 10);
+    ctx.drawImage(image, 260, 10);
     
     var text = 'Five Nights at Fazbois ';
     ctx.font = '30px Courier New';
