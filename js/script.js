@@ -1,4 +1,6 @@
 function drawTitle() {
+    var playButton = document.getElementById('playButton');
+    playButton.style.display = 'none';
     var canvas = document.getElementById('myCanvas');
     var ctx = canvas.getContext('2d');
     
