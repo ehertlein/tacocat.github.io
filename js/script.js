@@ -11,6 +11,11 @@ function drawTitle() {
     ctx.fillStyle = "#ffffff"
     ctx.fillText(text,10,35);
 
+    text = 'What the HECK is a © ';
+ctx.font = '15px Courier New';
+ctx.fillStyle = "#ffffff"
+ctx.fillText(text, 565, 425);
+
     var titleSong = new Audio('audio/title.mp3')
     titleSong.play();
 }
