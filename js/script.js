@@ -3,7 +3,8 @@ function drawTitle() {
     playButton.style.display = 'none';
     var canvas = document.getElementById('myCanvas');
     var ctx = canvas.getContext('2d');
-    
+    var gameState = 'title'
+
     const image = document.getElementById('title');
     ctx.drawImage(image, 260, 10);
     
